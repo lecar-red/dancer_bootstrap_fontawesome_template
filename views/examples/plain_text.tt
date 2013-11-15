@@ -1,0 +1,5 @@
+[% FILTER null %]
+[% page.layout = 'bare' %]
+[% END %]
+Hello World from Dancer! 
+  We are bare naked text using layout and wrapper sweetness

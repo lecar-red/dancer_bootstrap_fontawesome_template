@@ -1,0 +1,6 @@
+[%# why use this approach? 
+    it allows you to set page.layout in route templates 
+    to adjust current layout.
+ %]
+[% DEFAULT page.layout = 'main' %]
+[% PROCESS "layouts/${page.layout}.tt" %]

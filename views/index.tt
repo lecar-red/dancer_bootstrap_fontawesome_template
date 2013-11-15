@@ -1,3 +1,7 @@
+[% FILTER null %]
+  [% page.sub_title = "Home" %]
+[% END %]
+
 <!-- BootStrap NavBar -->
 <div class="navbar">
   <div class="navbar-inner">
